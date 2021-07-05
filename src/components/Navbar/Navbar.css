@@ -4,9 +4,8 @@ nav{
 }
 
 .categories{
-    display: flex;
     color: white;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
     text-decoration: none;
     list-style: none;
@@ -16,7 +15,7 @@ li{
     margin: auto;
     font-size: 20px;
     font-weight: 500px;
-    padding: 30px;
+    padding: 25px 100px;
 }
 
 .item a{
@@ -26,4 +25,15 @@ li{
 
 .item a:hover{
     color: red;
+}
+
+.greetings-contenedor{
+    height: 200px;
+    width: 100%;
+    background-color: beige;
+}
+
+.greetings-contenedor h2{
+    padding: 73px;
+    text-align: center;
 }
