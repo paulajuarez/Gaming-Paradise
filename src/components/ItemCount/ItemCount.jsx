@@ -14,7 +14,7 @@ const Contador = () => {
 
     return(
         <div className="contenedor-contador">
-            <button onClick ={cClicks}> Clickeame </button>
+            <button className="button" onClick ={cClicks}> Clickeame </button>
                 <p className="text">Me clickeaste: {click} veces</p>
                 <p className="text">El último click fue {fechayhora} </p>
         </div>
